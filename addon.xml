@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<sdk:sdk-addon
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:sdk="http://schemas.android.com/sdk/android/addon/1">
+    <sdk:add-on>
+        <sdk:vendor>Gibsson</sdk:vendor>
+        <sdk:name>Basic Add-On</sdk:name>
+        <sdk:description>Basic Service Add-on</sdk:description>
+        <sdk:api-level>19</sdk:api-level>
+        <sdk:revision>1</sdk:revision>
+        <sdk:libs>
+           <sdk:lib><sdk:name>com.gibsson.basic.service.lib</sdk:name></sdk:lib>
+        </sdk:libs>
+        <sdk:archives>
+            <sdk:archive os='any' arch='any'>
+                <sdk:size>153477179</sdk:size>
+                <sdk:checksum type='sha1'>ab01ddd757a109986099045825080d417685852c</sdk:checksum>
+                <sdk:url>basic_sdk_addon_api-19_r1.zip</sdk:url>
+            </sdk:archive>
+        </sdk:archives>
+    </sdk:add-on>
+</sdk:sdk-addon>
